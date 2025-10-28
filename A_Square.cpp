@@ -3,14 +3,13 @@ using namespace std;
 using ll = long long;
 
 void solve(){
-  int n;
-  cin>>n;
-  int a[n];
-  for(int i=0; i<n; i++){
-    cin>>a[i];
-  }
-  int maxx = *max_element(a,a+n);
-  cout<<maxx<<endl;
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    if(a==b && b==c && c==d && d==a){
+        cout<<"YES"<<endl;
+    }else{
+        cout<<"NO"<<endl;
+    }
 
 }
 int main(){
@@ -22,4 +21,3 @@ int main(){
     solve();
   }
 }
-// https://codeforces.com/contest/2162/problem/A

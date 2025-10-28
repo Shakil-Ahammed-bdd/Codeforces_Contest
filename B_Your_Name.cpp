@@ -3,14 +3,19 @@ using namespace std;
 using ll = long long;
 
 void solve(){
-  int n;
-  cin>>n;
-  int a[n];
-  for(int i=0; i<n; i++){
-    cin>>a[i];
-  }
-  int maxx = *max_element(a,a+n);
-  cout<<maxx<<endl;
+
+    int n;
+    cin>>n;
+    string s,t;
+    cin>>s>>t;
+    sort(s.begin(),s.end());
+    sort(t.begin(),t.end());
+
+    if(s == t){
+        cout<<"YES"<<endl;
+    }else{
+        cout<<"NO"<<endl;
+    }
 
 }
 int main(){
@@ -22,4 +27,3 @@ int main(){
     solve();
   }
 }
-// https://codeforces.com/contest/2162/problem/A
