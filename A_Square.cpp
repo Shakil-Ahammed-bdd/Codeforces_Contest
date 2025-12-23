@@ -21,3 +21,5 @@ int main(){
     solve();
   }
 }
+
+// https://codeforces.com/contest/2167/problem/A

@@ -76,3 +76,5 @@ int main(){
         cout<<'\n';
     }
 }
+
+// same probel ar code 

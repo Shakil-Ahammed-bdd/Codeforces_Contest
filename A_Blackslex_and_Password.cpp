@@ -4,8 +4,9 @@ using ll = long long;
 
 void solve()
 {
-
-  
+ll k, x;
+cin >>k >>x;
+cout<<k * x + 1 <<endl;
 }
 int main()
 {
